@@ -1,6 +1,6 @@
 ---
 title: "R Notebook"
-output: Fiscal policy and economic growth
+output: Inflation and economic growth
 ---
 
 
