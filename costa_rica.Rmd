@@ -13,8 +13,9 @@ library(lubridate)
 ```
 
 
+Loading the data
 ```{r}
-raw_data <- read.csv("C:/Users/benny/OneDrive/Documents/Teaching/Data and codes/Time series/costa_rica.csv", header=TRUE, sep=";")
+raw_data <- read.csv("C:/Users/benny/OneDrive/Documents/Teaching/Data and codes/Time series/costa_rica/costa_rica.csv", header=TRUE, sep=";")
 ```
 
 ```{r}
@@ -141,6 +142,6 @@ ggplot(data_new1, aes( Inflation_bkt, GDP_bkt))+geom_point() +
   geom_smooth(method="gam") +xlab("Inflation")+ylab("Economic Growth")
 
 ```
-
+we observe an oscilating relationship between the variable (positive at some point and negative at other points). This provides some indication of growth fatigue as inflation increases
 
 
